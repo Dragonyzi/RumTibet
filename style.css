@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'art';
+    src: url(font/NEXT\ ART_Light.otf);
+    font-style: normal;
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'art';
+    src: url(font/NEXT\ ART_Bold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'art';
+    src: url(font/NEXT\ ART_Heavy.otf);
+    font-style: normal;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'art';
+    src: url(font/NEXT\ ART_Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'art';
+    src: url(font/NEXT\ ART_SemiBold.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* TO-DO: Конвертнуть шрифт в woff2 & woff для 'оптимизации' */
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* TO-DO: Сделать собственный файл с отменой неугодных стилей (возможно плохая идея + есть готовый) */
+
+body {
+    font-family: 'art';
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1197px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 16px;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-nav {
+    display: flex;
+}
+.header-nav li {
+    margin: 0 0 0 24px;
+}
+.header-nav li:last-child {
+    margin: 0 49px 0 24px;
+}
+
+.header-nav a {
+    color: white;
+    font-size: 18px;
+}
+
+.button {
+    font-family: 'art';
+    font-weight: 500;
+    color: white;
+    background-color: #1A3E3E;
+    border: none;
+    border-radius: 10%;
+}
+
+.submit {
+    background-color: white;
+    color: black;
+}
+
+
+
+.section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    background-image: url(images/topsec/top-section-bg.jpg);
+}
+
+.top h1 {
+    font-style: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.explore {}
